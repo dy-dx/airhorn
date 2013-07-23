@@ -11,10 +11,10 @@ class Airhorn
   def self.play (file_path)
     if system 'command -v afplay >/dev/null 2>&1'
       # mac
-      spawn("afplay -t 1.4 #{file_path}")
+      spawn("afplay -t 1.4 #{file_path} >/dev/null 2>&1")
     elsif system 'command -v aplay >/dev/null 2>&1'
       # linux
-      spawn("aplay -d 1.4 #{file_path}")
+      spawn("aplay -d 1.4 #{file_path} >/dev/null 2>&1")
     end
   end
 
