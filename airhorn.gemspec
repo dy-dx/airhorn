@@ -6,6 +6,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Chris Kim"]
   s.email       = 'christopherjkim@gmail.com'
   s.homepage    = 'http://github.com/dy-dx/airhorn'
-  s.files       = ['lib/airhorn.rb', 'audio/airhorn.mp3']
+  s.files       = ['lib/airhorn.rb', 'audio/airhorn.wav']
   s.executables << 'airhorn'
 end
