@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'airhorn'
+puts Airhorn.blow(ARGV[0])
