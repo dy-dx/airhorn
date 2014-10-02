@@ -9,6 +9,7 @@ BRRRRR
 ## Usage
 
     $ airhorn
+    $ airhorns
 
 
 ## License
