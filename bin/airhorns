@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
 require 'airhorn'
-puts Airhorn.blow('airhorn.wav', 1.5)
+puts Airhorn.blow('airhorns.wav', 2.8)
